@@ -1,0 +1,63 @@
+* {
+
+  box-sizing: border-box;
+
+}
+
+#container {
+
+  width: 600px;
+  height: 1230px;
+
+}
+
+.city {
+
+  width:600px;
+  height:400px;
+  background-size: cover;
+  margin-bottom: 10px;
+  position:relative;
+}
+
+.newyork {
+
+  background-image: url("newyork.jpg");
+}
+
+.tokyo {
+
+  background-image: url("tokyo.jpg");
+}
+
+.paris {
+
+  background-image: url("paris.jpg");
+}
+
+.cityName {
+
+  font-size: 40px;
+  color:white;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+span {
+
+  font-size: 50px;
+  color:red;
+  position:absolute;
+  top:80%;
+  left:50%;
+  transform:translate(-80%, -50%);
+  display:none;
+
+}
+
+.city:hover span {
+
+  display:block;
+}
